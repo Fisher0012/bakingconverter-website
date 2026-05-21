@@ -32,7 +32,16 @@
     .highlight p { font-size: 15px; color: #333; margin: 0; }
     .links { margin-top: 40px; display: flex; gap: 24px; }
     .links a { font-size: 14px; color: #8B6914; text-decoration: none; font-weight: 500; }
-    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #E0E0E0; font-size: 13px; color: #999; text-align: center; }
+    .more-apps { margin-top: 48px; background: #F2F2F0; border-radius: 16px; padding: 24px; }
+    .more-apps h2 { font-size: 16px; font-weight: 700; margin: 0 0 16px; color: #1A1A1A; }
+    .app-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .app-list li a { display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; padding: 12px 16px; background: #fff; border-radius: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); transition: box-shadow 0.15s; }
+    .app-list li a:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.12); }
+    .app-info { display: flex; flex-direction: column; gap: 2px; }
+    .app-name { font-size: 14px; font-weight: 600; color: #1A1A1A; }
+    .app-desc { font-size: 12px; color: #777; }
+    .app-price { font-size: 13px; font-weight: 500; color: #8B6914; white-space: nowrap; margin-left: 12px; }
+    footer { margin-top: 32px; padding-top: 24px; border-top: 1px solid #E0E0E0; font-size: 13px; color: #999; text-align: center; }
   </style>
   <script type="application/ld+json">
   {
@@ -95,6 +104,57 @@
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy Policy</a>
     </div>
+
+    <section class="more-apps">
+      <h2>More Apps by Donnie</h2>
+      <ul class="app-list">
+        <li>
+          <a href="https://apps.apple.com/app/id6768997826" target="_blank" rel="noopener">
+            <div class="app-info">
+              <span class="app-name">Coffee Ratio</span>
+              <span class="app-desc">Coffee brew ratio calculator</span>
+            </div>
+            <span class="app-price">Free</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://apps.apple.com/app/id6770065683" target="_blank" rel="noopener">
+            <div class="app-info">
+              <span class="app-name">Bean Note</span>
+              <span class="app-desc">Coffee tasting journal</span>
+            </div>
+            <span class="app-price">$2.99</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://apps.apple.com/app/id6770163531" target="_blank" rel="noopener">
+            <div class="app-info">
+              <span class="app-name">Pace Ratio</span>
+              <span class="app-desc">Running pace calculator</span>
+            </div>
+            <span class="app-price">$1.99</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://apps.apple.com/app/id6770239656" target="_blank" rel="noopener">
+            <div class="app-info">
+              <span class="app-name">Kanji Compare</span>
+              <span class="app-desc">Chinese-Japanese kanji dictionary</span>
+            </div>
+            <span class="app-price">Free</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://apps.apple.com/app/id6771278486" target="_blank" rel="noopener">
+            <div class="app-info">
+              <span class="app-name">Vino Note</span>
+              <span class="app-desc">Wine tasting journal</span>
+            </div>
+            <span class="app-price">$3.99</span>
+          </a>
+        </li>
+      </ul>
+    </section>
 
     <footer>Bake Ratio &copy; 2026 Donnie</footer>
   </div>
